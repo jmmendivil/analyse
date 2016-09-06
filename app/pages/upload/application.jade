@@ -20,6 +20,9 @@ nav.navbar.navbar-default
 		.form-group
 			label(for="file") JSON file
 			input.form-control(type="file", id="file")
+		.form-group.children
+			select.form-control
+				option(disabled) Select child from file
 		.form-group
 			label(for="example") Example
 			div: button(type="btn btn-default", id="example") Use example
